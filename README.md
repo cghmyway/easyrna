@@ -15,22 +15,21 @@ devtools:install_github("cghmyway/easyrna")
 
 ## Related protocols
 
-### 1. Before any analysis, prepare the local database.
-
-# prepare **GTF**. Obtained from the [ENSEMBL](https://ftp.ensembl.org/pub/release-112/gtf/) website.
+#### 1. Before any analysis, prepare the local database.
+prepare **GTF**. Obtained from the [ENSEMBL](https://ftp.ensembl.org/pub/release-112/gtf/) website.
 ```r
 database <- easyrna::refer("/path/to/your/gtf")
 ```
 
-### 2.1 Convert read count to TPM
+#### 2.1 Convert read count to TPM
 
 
-### 2.2  Convert read count to FPKM
+#### 2.2  Convert read count to FPKM
 
 
-### 2.3  Convert read count to CPM
+#### 2.3  Convert read count to CPM
 
-### 3. Conversion between ENSEMBL and SYMBOL names
+#### 3. Conversion between ENSEMBL and SYMBOL names
 
 
 
