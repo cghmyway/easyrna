@@ -22,6 +22,7 @@ database <- easyrna::refer("/path/to/your/gtf")
 ```
 
 #### 2.1 Convert read count to TPM
+![image](https://github.com/user-attachments/assets/581a826f-e3f0-4e38-a4e6-d7ace013c987)
 
 
 #### 2.2  Convert read count to FPKM
