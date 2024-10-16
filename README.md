@@ -22,8 +22,14 @@ database <- easyrna::refer("/path/to/your/gtf")
 ```
 
 #### 2.1 Convert read count to TPM
+!!!The GeneReadCount files from STAR or featureCounts need to be integrated into a data frame with gene names as rows and sample names as columns, as shown below.
 ![image](https://github.com/user-attachments/assets/581a826f-e3f0-4e38-a4e6-d7ace013c987)
 
+```r
+head(ReadCount.data)
+data <- geneLength( df = ReadCount.data, gtf = "/path/to/gtf.file")
+data_TPM <- countToTpm(expmat = data, effLen_col = "est_len")
+```
 
 #### 2.2  Convert read count to FPKM
 
