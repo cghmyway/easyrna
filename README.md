@@ -1,6 +1,6 @@
 # **EASYRNA V1.0**
 
-## easyrna (user-friendly Bulk RNA analysis R package)
+## easyrna (User-friendly Bulk RNA analysis R package)
 
 ## Global Object
 **easyrna** The EasyRNA R package is a locally-based auxiliary package for RNA-seq data analysis, which includes functions for differential analysis, gene name conversion, gene expression conversion, and plotting. It lowers the barrier to entry for differential analysis.
@@ -33,10 +33,10 @@ data <- geneLength( df = ReadCount.data, gtf = "/path/to/gtf.file")
 data_TPM <- countToTpm(expmat = data, effLen_col = "est_len")
 ```
 
-#### 2.2  Convert read count to FPKM
+#### 2.2  Convert readcount to FPKM
 
 
-#### 2.3  Convert read count to CPM
+#### 2.3  Convert readcount to CPM
 
 #### 3. Conversion between ENSEMBL and SYMBOL names
 
