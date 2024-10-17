@@ -55,7 +55,7 @@ data_FPKM <- easyrna::countToFpkm(expmat = data,effLen_col = "est_len" )
 data_CPM <- easyrna::countToCPM(expmat = Readcount.data)
 ```
 
-#### 3 Conversion between ENSEMBL and SYMBOL names
+#### 3. Conversion between ENSEMBL and SYMBOL names
 
 ```r
 data$gene_symbol <- findname(query = rownames(data), 
@@ -63,9 +63,30 @@ data$gene_symbol <- findname(query = rownames(data),
                               type = "ENSEMBL") # type: "ENSEMBL";"SYMBOL"
 ```
 
+#### 4. Analysis of differentially expressed genes using Deseq2
 
+```r
 
+database <- refer("/path/to/gtf") # make database
+# desCompare return a List including 
+res <- easyrna::desCompare(readcount = data,  # ReadCount file
+                         group1.name = "A",   # Treatment group name, such as "OV"
+                       group1.number = 3,     # Number of group1 sample
+                         group2.name = "B",   # Control group name, such as "Control"
+                       group2.number = 3,     # Number of group2 sample
+                             dataset = database,  # database made by refer function
+                                type = "ENSEMBL",  # Type of gene name in ReadCount file
+                    log2FC.threshold = 1,
+                    pvalue.threshold = 0.05,
+                      padj.threshold = 0.05,
+                               top.n = 10)  # The number of genes that need to be labeled for downstream plotting.
+# save result
+# write.csv(res[["DEG_Dataframe"]], "DEGs.csv")
 
+# DEGs number
+# table(res[["DEG_Dataframe"]]$Group)
+
+```
 
 
 
