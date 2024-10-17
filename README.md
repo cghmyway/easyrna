@@ -1,9 +1,14 @@
 # **EASYRNA V1.0**
 
-## easyrna (User-friendly Bulk RNA analysis R package)
+## Easyrna ( R Package of User-Friendly Bulk RNA Analysis)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c2a36d3b-dce8-434d-b1b0-2abdbfbcd53d" alt="Example Image" width="50%" style="margin-top: 600mm; margin-bottom: 600mm;">
+                                                          
+</p>
 
 ## Global Object
-**easyrna** The EasyRNA R package is a locally-based auxiliary package for RNA-seq data analysis, which includes functions for differential analysis, gene name conversion, gene expression conversion, and plotting. It lowers the barrier to entry for differential analysis.
+The ***EasyRNA*** R package is a locally-based auxiliary package for RNA-seq data analysis, which includes functions for differential analysis, gene name conversion, gene expression conversion, and plotting. It lowers the barrier to entry for differential analysis.
 
 
 ## How to install
