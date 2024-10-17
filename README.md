@@ -25,7 +25,7 @@ prepare **GTF**. Obtained from the [ENSEMBL](https://ftp.ensembl.org/pub/release
 ```r
 database <- easyrna::refer("/path/to/your/gtf")
 ```
-#### 🌱2. Transformation of gene expression estimation methods
+### 🌱2. Transformation of gene expression estimation methods
 #### 🌱2.1 Convert read count to TPM
 !!!The GeneReadCount files from STAR or featureCounts need to be integrated into a data frame with gene names as rows and sample names as columns, as shown below !!!
 
@@ -87,6 +87,23 @@ res <- easyrna::desCompare(readcount = data,  # ReadCount file
 # table(res[["DEG_Dataframe"]]$Group)
 
 ```
+### Visualization
+#### 🌱4.1 Volcano for bulk RNA-seq
+
+```r
+
+plot_volcano(deg.data = res[["DEG_Dataframe"]], log_scale="log10p")
+
+```
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/63e93f8a-78c1-42ba-bcc2-58993f4b8831" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+                                                          
+</p>
+
+#### 
+
 
 
 
