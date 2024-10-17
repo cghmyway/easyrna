@@ -25,7 +25,10 @@ database <- easyrna::refer("/path/to/your/gtf")
 !!!The GeneReadCount files from STAR or featureCounts need to be integrated into a data frame with gene names as rows and sample names as columns, as shown below !!!
 
 
-![image](https://github.com/user-attachments/assets/581a826f-e3f0-4e38-a4e6-d7ace013c987)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/581a826f-e3f0-4e38-a4e6-d7ace013c987" alt="Example Image" width="50%" style="margin-top: 60px; margin-bottom: 60px;">
+                                                          
+</p>
 
 ```r
 head(ReadCount.data)
@@ -35,10 +38,30 @@ data_TPM <- countToTpm(expmat = data, effLen_col = "est_len")
 
 #### 2.2  Convert readcount to FPKM
 
+```r
+head(ReadCount.data)
+data <- geneLength( df = ReadCount.data, gtf = "/path/to/gtf.file")
+data_FPKM <- easyrna::countToFpkm(expmat = data,effLen_col = "est_len" )
+```
 
 #### 2.3  Convert readcount to CPM
 
+```r
+data_CPM <- easyrna::countToCPM(expmat = Readcount.data)
+```
+
 #### 3. Conversion between ENSEMBL and SYMBOL names
+
+
+
+
+
+
+
+
+
+
+
 
 
 
