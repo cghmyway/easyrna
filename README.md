@@ -87,6 +87,8 @@ res <- easyrna::desCompare(readcount = data,  # ReadCount file
 # table(res[["DEG_Dataframe"]]$Group)
 
 ```
+
+##
 ### 🤩Visualization🤩
 
 #### 🌱4.1 Volcano for bulk RNA-seq
