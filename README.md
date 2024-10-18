@@ -21,7 +21,7 @@ devtools:install_github("cghmyway/easyrna")
 ## Related protocols
 
 #### 1. Before any analysis, prepare the local database.
-prepare **GTF**. Obtained from the [ENSEMBL](https://ftp.ensembl.org/pub/release-112/gtf/) website.
+📢 Prepare **GTF**. Obtained from the [ENSEMBL](https://ftp.ensembl.org/pub/release-112/gtf/) website.
 ```r
 database <- easyrna::refer("/path/to/your/gtf")
 ```
@@ -87,7 +87,8 @@ res <- easyrna::desCompare(readcount = data,  # ReadCount file
 # table(res[["DEG_Dataframe"]]$Group)
 
 ```
-### Visualization
+### 🤩Visualization🤩
+
 #### 🌱4.1 Volcano for bulk RNA-seq
 
 ```r
