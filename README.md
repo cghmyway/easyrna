@@ -17,7 +17,7 @@ The ***EasyRNA*** R package is a locally-based auxiliary package for RNA-seq dat
 The development version can be installed using devtools:
 ```r
 # install.packages("devtools")
-devtools:install_github("cghmyway/easyrna")
+devtools::install_github("cghmyway/easyrna")
 ```
 
 ## Related protocols
