@@ -196,6 +196,7 @@ run_GO_analysis(des_res = des_res, topn = 15,  up_color = "red4",down_color = "g
 ```r
 # KEGG
 run_KEGG_analysis(des_res, pvalueCutoff = 0.05, qvalueCutoff = 0.05, font_size =2, point_size = 8)
+
 ```
 
 <p align="center">
@@ -206,7 +207,7 @@ run_KEGG_analysis(des_res, pvalueCutoff = 0.05, qvalueCutoff = 0.05, font_size =
 
 
 
-###🚀 6. Visualization of alternative splicing results
+### 🚀 6. Visualization of alternative splicing results
 
 📢Provides wrapper functions for rMATs result visualization
 
