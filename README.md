@@ -3,9 +3,10 @@
 ## Easyrna ( R Package of User-Friendly Bulk RNA Analysis)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7f0c3074-567a-4e7e-8d98-eb15ec6570e1" alt="Example Image" width="50%" style="margin-top: 600mm; margin-bottom: 600mm;">
+  <img src="https://github.com/user-attachments/assets/12d8dde7-a662-4519-9b99-eb0289e08847" alt="Example Image" width="50%" style="margin-top: 600mm; margin-bottom: 600mm;">
                                                           
 </p>
+
 
 
 ## Global Object
