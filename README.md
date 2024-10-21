@@ -98,6 +98,7 @@ res <- easyrna::desCompare(readcount = data,  # ReadCount file
 plot_volcano(deg.data = res[["DEG_Dataframe"]], log_scale="log10p")
 
 ```
+![d6f6a67d-260d-417e-8971-0ca3a4a87d7f](https://github.com/user-attachments/assets/33374d52-528c-401b-8a5c-8ad5a8275c12)
 
 
 <p align="center">
