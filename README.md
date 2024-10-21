@@ -1,4 +1,4 @@
-# **EASYRNA V1.0**
+# **EASYRNA V1.5**
 
 ## Easyrna ( R Package of User-Friendly Bulk RNA Analysis)
 
