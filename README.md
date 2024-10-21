@@ -31,7 +31,7 @@ database <- easyrna::refer("/path/to/your/gtf")
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/581a826f-e3f0-4e38-a4e6-d7ace013c987" alt="Example Image" width="50%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/7ad07a07-fb0a-42de-b8b5-4b6dde0695e5" alt="Example Image" width="50%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
 
