@@ -3,9 +3,10 @@
 ## Easyrna ( R Package of User-Friendly Bulk RNA Analysis)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c2a36d3b-dce8-434d-b1b0-2abdbfbcd53d" alt="Example Image" width="50%" style="margin-top: 600mm; margin-bottom: 600mm;">
+  <img src="https://github.com/user-attachments/assets/7f0c3074-567a-4e7e-8d98-eb15ec6570e1" alt="Example Image" width="50%" style="margin-top: 600mm; margin-bottom: 600mm;">
                                                           
 </p>
+
 
 ## Global Object
 The ***EasyRNA*** R package is a locally-based auxiliary package for RNA-seq data analysis, which includes functions for differential analysis, gene name conversion, gene expression conversion, and plotting. It lowers the barrier to entry for differential analysis.
@@ -98,11 +99,10 @@ res <- easyrna::desCompare(readcount = data,  # ReadCount file
 plot_volcano(deg.data = res[["DEG_Dataframe"]], log_scale="log10p")
 
 ```
-![d6f6a67d-260d-417e-8971-0ca3a4a87d7f](https://github.com/user-attachments/assets/33374d52-528c-401b-8a5c-8ad5a8275c12)
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/63e93f8a-78c1-42ba-bcc2-58993f4b8831" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/33374d52-528c-401b-8a5c-8ad5a8275c12" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
 
@@ -119,7 +119,7 @@ ellipse = TRUE) # Whether to draw a confidence ellipse. Default:FALSE
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7d19db89-ce41-403a-ac46-cbc388b4203a" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/d2f0d7fe-c1af-43bd-9091-1ee2feb4c438" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
 
@@ -146,7 +146,7 @@ b3_TPM     B Female Tissue1
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/64adc193-0bbd-4260-8d3d-7196863fa691" alt="Example Image" width="50%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/03ceec49-6751-47fb-8c21-781dc061fc81" alt="Example Image" width="50%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
 
@@ -158,9 +158,10 @@ plot_gene_boxplot(data = data_tpm, groups = c("A","B"), group_positions = list(1
 
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b669d838-14a2-4327-9305-d6e7d031114c" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/6be56e82-ba26-4f2d-854b-ec700075348a" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
+
 
 ```r
 # Using violin
@@ -169,9 +170,10 @@ plot_gene_violin(data = data_tpm, groups = c("A","B"), group_positions = list(1:
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6d09ef08-d96e-4fba-b742-4b49b4895176" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/a4d2175c-87bf-4774-8e18-b8809760892e" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
+
 
 #### 🌱5.5 GO/KEGG
 
