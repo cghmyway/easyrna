@@ -184,9 +184,13 @@ run_GO_analysis(des_res = des_res, topn = 15,  up_color = "red4",down_color = "g
 # des_res: The results of differentially expressed genes from desCompare function.
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a313220e-1eed-4235-9b25-a4a2c624054e" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/04784a14-27ad-491b-977f-ad1b77a56af0" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
+
+
+
+
 
 ```r
 # KEGG
@@ -194,9 +198,12 @@ run_KEGG_analysis(des_res, pvalueCutoff = 0.05, qvalueCutoff = 0.05, font_size =
 ```
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8badf557-64fe-4b24-801e-d9b8cec77be0" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
+  <img src="https://github.com/user-attachments/assets/f94fa911-86c2-42da-9fff-dc318e91ca52" alt="Example Image" width="30%" style="margin-top: 60px; margin-bottom: 60px;">
                                                           
 </p>
+
+
+
 
 ###🚀 6. Visualization of alternative splicing results
 
