@@ -22,9 +22,9 @@ gtf$attributes %>% str_extract(., "gene_id \"[\\w|\\.]+") %>% str_remove(., "gen
 gtf <- gtf %>% dplyr::select(start, end, gene_id, len) %>%
   distinct(start,end,gene_id, .keep_all = T) %>%
   dplyr::select(gene_id,len) %>% group_by(gene_id) %>%
-  summarise(est_len=sum(len)) %>% column_to_rownames(var = "gene_id")
+  summarise(est_len=sum(len))
 
-expmat <- df %>% bind_cols(gtf) %>% drop_na()
+expmat <- df %>% column_to_rownames(var = "gene_id") %>% inner_join(gtf, by = "gene_id") %>% rownames_to_column(var = "gene_id") %>% drop_na()
 }
 
 
